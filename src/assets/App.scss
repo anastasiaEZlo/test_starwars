@@ -1,0 +1,67 @@
+body {
+    background: url(https://ak0.picdn.net/shutterstock/videos/19360780/thumb/1.jpg);
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+}
+
+.logo {
+    background: linear-gradient(rgba(58, 90, 95, 0.54) 20%, rgba(58, 90, 95, 0.27), rgba(0, 0, 0, 0) 80%), url(https://techflourish.com/images/disney-star-wars-clipart-15.png) center no-repeat;
+    background-size: cover, 136px 65px;
+    height: 120px;
+    width: 100%;
+}
+
+.movies {
+    display: flex;
+}
+
+.item {
+    text-align: center;
+    height: 80vh;
+    position: relative;
+    margin: 0 3% 0;
+
+    .line {
+        width: 1px;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #d0d0d0, rgba(255, 255, 255, 0) 95%);
+        position: absolute;
+        left: 50%;
+    }
+}
+
+.movie {
+    text-align: center;
+    position: relative;
+
+
+    img {
+        border: 1px solid #d0d0d0;
+        max-width: 90%;
+        cursor: pointer;
+    }
+
+    .title-movie {
+        font-size: 14px;
+        background: white;
+        position: absolute;
+        top: 75%;
+        color: #1DC832;
+        text-transform: uppercase;
+        padding: 2px 6px;
+        width: 140%;
+        margin-left: -28%;
+        font-weight: 300;
+    }
+
+}
+.year {
+    color: #959595;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    font-weight: 100;
+    font-size: 14px;
+ }

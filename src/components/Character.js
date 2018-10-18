@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../assets/App.css';
+import '../assets/App.scss';
 
 class Character extends Component {
 
@@ -9,6 +9,10 @@ class Character extends Component {
             <div className='character'>
                 <div className='img-container'>
                     <img src={data.media[0].src} />
+                </div>
+                <div >
+                    <div className='name'>{data.name}</div>
+                    <div className='cast-name'>{data.castName}</div>
                 </div>
             </div>
         );
